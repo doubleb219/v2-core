@@ -79,41 +79,6 @@
         "UniswapV2Pair"
       ]
     },
-    "D:\\Git-project\\v2-core\\contracts\\interfaces\\IUniswapV2Pair.sol": {
-      "lastModificationDate": 1741648922932,
-      "contentHash": "d021d78f40daea7a0f06e1d2eed0e968",
-      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
-      "solcConfig": {
-        "version": "0.5.16",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IUniswapV2Pair"
-      ]
-    },
     "D:\\Git-project\\v2-core\\contracts\\UniswapV2ERC20.sol": {
       "lastModificationDate": 1741648922931,
       "contentHash": "91a2001b4697613fd016ad98df162eff",
@@ -185,6 +150,41 @@
       ],
       "artifacts": [
         "Math"
+      ]
+    },
+    "D:\\Git-project\\v2-core\\contracts\\interfaces\\IUniswapV2Pair.sol": {
+      "lastModificationDate": 1741648922932,
+      "contentHash": "d021d78f40daea7a0f06e1d2eed0e968",
+      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
       ]
     },
     "D:\\Git-project\\v2-core\\contracts\\libraries\\UQ112x112.sol": {
@@ -363,7 +363,7 @@
       ]
     },
     "D:\\Git-project\\v2-core\\contracts\\UniswapV2Factory.sol": {
-      "lastModificationDate": 1741648922931,
+      "lastModificationDate": 1741813569414,
       "contentHash": "d11e6f227d62998403ec093773bfa291",
       "sourceName": "contracts/UniswapV2Factory.sol",
       "solcConfig": {
@@ -435,6 +435,43 @@
       ],
       "artifacts": [
         "ERC20"
+      ]
+    },
+    "D:\\Git-project\\v2-core\\contracts\\CalHash.sol": {
+      "lastModificationDate": 1741813593350,
+      "contentHash": "59fc86c69d61d3499322a54c8f4a36ce",
+      "sourceName": "contracts/CalHash.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "CalHash"
       ]
     }
   }
